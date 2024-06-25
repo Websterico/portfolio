@@ -43,7 +43,7 @@ export default function Home() {
   }, [displayedText, isDeleting, index, speed, texts]);
 
   return (
-    <main className="min-h-screen flex flex-col sm:flex-col md:flex-col lg:flex-row p-16 lg:p-6 gap-5 lg:gap-3">
+    <main className=" bg-black min-h-screen flex flex-col sm:flex-col md:flex-col lg:flex-row p-16 lg:p-6 gap-5 lg:gap-3">
       <div className="background-image"></div>
       <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col lg:w-3/4 justify-between gap-4">
         <div className="flex flex-col lg:flex-row items-center justify-center h-2/4 gap-6">
