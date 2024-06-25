@@ -13,12 +13,6 @@ module.exports = {
         'black': '#000000',
         'navy-blue': '#000080',
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          'gold-white-black': 'linear-gradient(to bottom, #FFD700 0%, #FFFFFF 50%, #000000 100%)',
-      },
     },
   },
   plugins: [],

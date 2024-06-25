@@ -48,26 +48,26 @@ export default function Home() {
       <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col lg:w-3/4 justify-between gap-4">
         <div className="flex flex-col lg:flex-row items-center justify-center h-2/4 gap-6">
           <div className="w-full sm:h-[25vh] md:h-[30vh] lg:h-[50vh] text-center lg:py-[20%] xl:py-[14%] bx1">
-            <h1 className="font-light text-xl">
+            <h1 className="font-light text-white text-xl">
               HI THERE ! I&apos;M 
             </h1>
             <br />
-            <h1 className="font-bold text-5xl">HUSSNAIN</h1>
+            <h1 className="font-bold text-white text-5xl">HUSSNAIN</h1>
             <br/>
             <h2 className="font-bold text-2xl text-yellow-500 typing-text">
               <span>{displayedText}</span>
             </h2>
           </div>
           <div className="w-full h-full text-center sm:py-[8%] md:py-[10%] lg:py-[28%] xl:py-[20%] bg-[#222222] bx2">
-            <h1 className="font-bold text-5xl">About<span className="text-yellow-500">&nbsp;Me</span></h1>
+            <h1 className="font-bold text-white text-5xl">About<span className="text-yellow-500">&nbsp;Me</span></h1>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center h-2/4 justify-center gap-6">
           <div className="w-full h-full text-center sm:py-[8%] md:py-[10%] lg:py-[28%] xl:py-[20%] bg-[#222222] bx2">
-            <h1 className="font-bold text-5xl">My <span className="text-yellow-500">Portfolio</span></h1>
+            <h1 className="font-bold text-white text-5xl">My <span className="text-yellow-500">Portfolio</span></h1>
           </div>
           <div className="w-full h-full sm:py-[8%] md:py-[10%] lg:py-[28%] xl:py-[20%] text-center bg-[#222222] bx2">
-            <h1 className="font-bold text-5xl">Get <span className="text-yellow-500">In</span><span className="text-yellow-500">Touch</span></h1>
+            <h1 className="font-bold text-white text-5xl">Get <span className="text-yellow-500">In</span><span className="text-yellow-500">Touch</span></h1>
           </div>
         </div>
       </div>
