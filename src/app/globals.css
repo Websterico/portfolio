@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+
+.background-image {
+  background-image: url('/hsn.png'); 
+  background-position: center;
+  background-size:cover;
+  height: auto; 
+
+  @media (min-width: 1280px)  {
+    width: 60vh;
+}
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+       width: 47vh;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: hidden;
+  }
+
+  @media (min-width: 426px) and (max-width: 767px) {
+    display: hidden;
+  }
+
+  @media (max-width: 425px) {
+       display: hidden;
+  }
+}
+
+.bx1{
+   @media (max-width:680px){
+    height: 25vh;
+   }
+}
+.bx2{
+  @media (max-width:680px){
+    padding-top: 6%;
+    padding-bottom: 6%;
+   }
+}
