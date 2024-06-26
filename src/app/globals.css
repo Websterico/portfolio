@@ -10,18 +10,19 @@
   background-image: url('/hsn.png'); 
   background-position: center;
   background-size:cover;
-  height: auto; 
+  height:max-content; 
 
   @media (min-width: 1280px)  {
-    width: 60vh;
+    width: 50vh;
 }
 
   @media (min-width: 1024px) and (max-width: 1279px) {
-       width: 47vh;
+       width: 50vh;
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
     display: hidden;
+
   }
 
   @media (min-width: 426px) and (max-width: 767px) {
@@ -33,13 +34,8 @@
   }
 }
 
-.bx1{
-   @media (max-width:680px){
-    height: 25vh;
-   }
-}
 .bx2{
-  @media (max-width:680px){
+  @media (max-width:640px){
     padding-top: 6%;
     padding-bottom: 6%;
    }
